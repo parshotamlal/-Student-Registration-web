@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration System</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-blue-600 text-white p-6 text-center shadow-md mb-6">
+        <h1 class="text-3xl font-bold">Student Registration System</h1>
+        <p class="text-lg">A modern and stylish interface for managing student records.</p>
+    </header>
+
+    <section id="registration-form" class="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md mb-6">
+        <h2 class="text-2xl font-bold mb-4">Register a New Student</h2>
+        <form id="studentForm" class="space-y-4">
+            <div>
+                <label for="studentName" class="block mb-1 font-medium">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <div>
+                <label for="studentID" class="block mb-1 font-medium">Student ID:</label>
+                <input type="text" id="studentID" name="studentID" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <div>
+                <label for="emailID" class="block mb-1 font-medium">Email ID:</label>
+                <input type="email" id="emailID" name="emailID" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <div>
+                <label for="contactNo" class="block mb-1 font-medium">Contact No:</label>
+                <input type="text" id="contactNo" name="contactNo" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Add detail</button>
+        </form>
+    </section>
+
+    <section id="studentRecords" class="max-w-5xl mx-auto p-6 bg-white rounded-lg shadow-md mb-6">
+        <h2 class="text-2xl font-bold mb-4">Registered Students</h2>
+        <table class="w-full border-collapse border border-gray-300 text-left">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="p-2 border">Student Name</th>
+                    <th class="p-2 border">Student ID</th>
+                    <th class="p-2 border">Email ID</th>
+                    <th class="p-2 border">Contact No</th>
+                    <th class="p-2 border">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody"></tbody>
+        </table>
+    </section>
+
+    <script src="app1.js"></script>
+</body>
+</html>
+

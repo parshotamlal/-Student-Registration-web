@@ -1,0 +1,316 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #4f46e5, #3b82f6);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+header:hover {
+    transform: scale(1.02);
+}
+
+/* Section Styling */
+section {
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    max-width: 900px;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+form input {
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+    background-color: #f9fafb;
+}
+
+form input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+/* Button Styling */
+form button {
+    padding: 12px 24px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+
+form button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+table th {
+    background-color: #f3f4f6;
+    text-align: left;
+    font-weight: 700;
+    color: #374151;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 0.9rem;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit Button */
+.action-buttons .edit {
+    background-color: #f59e0b;
+}
+
+.action-buttons .edit:hover {
+    background-color: #d97706;
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.action-buttons .delete {
+    background-color: #ef4444;
+}
+
+.action-buttons .delete:hover {
+    background-color: #dc2626;
+    transform: scale(1.05);
+}
+
+/* Scrollbar Styling */
+table::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+table::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 10px;
+}
+
+table::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+table::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Table Header Styling */
+table th {
+    padding: 15px;
+    background-color: #4f46e5; /* Dark Indigo */
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+table th:hover {
+    background-color: #3b82f6; /* Blue */
+}
+
+/* Table Body Styling */
+table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    transition: background-color 0.2s;
+}
+
+table tr:hover td {
+    background-color: #f3f4f6;
+}
+
+/* Alternate Row Styling */
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Action Buttons Styling */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 0.9rem;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit Button */
+.action-buttons .edit {
+    background-color: #f59e0b;
+}
+
+.action-buttons .edit:hover {
+    background-color: #d97706;
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.action-buttons .delete {
+    background-color: #ef4444;
+}
+
+.action-buttons .delete:hover {
+    background-color: #dc2626;
+    transform: scale(1.05);
+}
+
+/* Scrollbar Styling */
+table::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+table::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 10px;
+}
+
+table::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+table::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Action Buttons Styling */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* General Button Styling */
+/* Action Buttons Styling */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* General Button Styling */
+.action-buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Edit Button Styling */
+.edit-btn {
+    background-color: #10b981; /* Emerald */
+}
+
+.edit-btn:hover {
+    background-color: #059669; /* Darker Emerald */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #ef4444; /* Red */
+}
+
+.delete-btn:hover {
+    background-color: #dc2626; /* Darker Red */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Button Press Effect */
+.action-buttons button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
