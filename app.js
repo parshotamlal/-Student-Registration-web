@@ -1,4 +1,3 @@
-// Regular expressions for input validation
 const nameRegex = /^[A-Za-z\s]+$/; // Validates name (letters and spaces)
 const idRegex = /^[0-9]+$/; // Validates ID (numbers only)
 const contactRegex = /^[0-9]{10}$/; // Validates contact (10 digits)
