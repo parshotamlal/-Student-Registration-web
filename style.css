@@ -1,11 +1,13 @@
+/* Custom CSS */
+
 body {
-    background-color: #e9ecef;
+    background-color: #f1f5f9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
-}
+  }
 
-/* Header Styling */
-header {
+  /* Header Styling */
+  header {
     background: linear-gradient(90deg, #4f46e5, #3b82f6);
     color: white;
     padding: 30px;
@@ -13,14 +15,14 @@ header {
     border-radius: 0 0 12px 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
-}
-/* Header hover effect */
-header:hover {
-    transform: scale(1.02);
-}
+  }
 
-/* Section Styling */
-section {
+  header:hover {
+    transform: scale(1.02);
+  }
+
+  /* Section Styling */
+  section {
     margin: 20px auto;
     padding: 30px;
     background-color: white;
@@ -28,42 +30,40 @@ section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     max-width: 900px;
-}
+  }
 
-/* Section hover styling */
-section:hover {
+  section:hover {
     transform: scale(1.01);
-}
+  }
 
-/* Form Styling */
-form {
+  /* Form Styling */
+  form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+  }
 
-/* form lavel Styling */
-form label {
+  form label {
     font-weight: 600;
     color: #1f2937;
-}
-/* Form input styling */
-form input {
+  }
+/* form input  Styling */
+  form input {
     padding: 14px;
     border: 1px solid #d1d5db;
     border-radius: 8px;
     outline: none;
     transition: border 0.3s, box-shadow 0.3s;
     background-color: #f9fafb;
-}
-
-form input:focus {
+  }
+/* input styling */
+  form input:focus {
     border-color: #3b82f6;
     box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
-}
+  }
 
-/* Button Styling */
-form button {
+  /* Form Button Styling */
+  form button {
     padding: 12px 24px;
     background-color: #3b82f6;
     color: white;
@@ -73,100 +73,15 @@ form button {
     transition: background-color 0.3s, transform 0.2s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-weight: 600;
-}
-/* Button hover effect */
-form button:hover {
+  }
+/* form hover styling */
+  form button:hover {
     background-color: #2563eb;
     transform: scale(1.05);
-}
+  }
 
-/* Table Styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-table th, table td {
-    padding: 15px;
-    border-bottom: 1px solid #e5e7eb;
-}
-/* table Header styling */
-table th {
-    background-color: #f3f4f6;
-    text-align: left;
-    font-weight: 700;
-    color: #374151;
-}
-
-table tr:nth-child(even) {
-    background-color: #f9fafb;
-}
-
-/* Action Buttons */
-.action-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-/* button styling */
-.action-buttons button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    font-size: 0.9rem;
-    color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Edit Button */
-.action-buttons .edit {
-    background-color: #f59e0b;
-}
-/* Edit button hover effect */
-.action-buttons .edit:hover {
-    background-color: #d97706;
-    transform: scale(1.05);
-}
-
-/* Delete Button */
-.action-buttons .delete {
-    background-color: #ef4444;
-}
-
-.action-buttons .delete:hover {
-    background-color: #dc2626;
-    transform: scale(1.05);
-}
-
-/* Scrollbar Styling */
-table::-webkit-scrollbar {
-    height: 10px;
-    width: 10px;
-}
-
-table::-webkit-scrollbar-track {
-    background: #e5e7eb;
-    border-radius: 10px;
-}
-
-table::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-table::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
-/* Table Styling */
-table {
+  /* Table Styling */
+  table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -174,110 +89,44 @@ table {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background-color: white;
-}
-
-/* Table Header Styling */
-table th {
+  }
+/* Table th Styling */
+  table th {
     padding: 15px;
-    background-color: #4f46e5; /* Dark Indigo */
+    background-color: #4f46e5;
     color: white;
     text-align: left;
     font-weight: 700;
     transition: background-color 0.3s;
-}
-
-table th:hover {
-    background-color: #3b82f6; /* Blue */
-}
-
-/* Table Body Styling */
-table td {
+  }
+/* Table th hover  Styling */
+  table th:hover {
+    background-color: #3b82f6;
+  }
+/* Table td  Styling */
+  table td {
     padding: 15px;
     border-bottom: 1px solid #e5e7eb;
     color: #374151;
     transition: background-color 0.2s;
-}
-
-table tr:hover td {
+  }
+/* Table tr hover  Styling */
+  table tr:hover td {
     background-color: #f3f4f6;
-}
-
-/* Alternate Row Styling */
-table tr:nth-child(even) {
+  }
+/* Table  Styling */
+  table tr:nth-child(even) {
     background-color: #f9fafb;
-}
+  }
 
-/* Action Buttons Styling */
-.action-buttons {
+  /* Action Buttons Styling */
+  .action-buttons {
     display: flex;
     gap: 10px;
-}
+  }
 
-.action-buttons button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    font-size: 0.9rem;
-    color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Edit Button */
-.action-buttons .edit {
-    background-color: #f59e0b;
-}
-
-.action-buttons .edit:hover {
-    background-color: #d97706;
-    transform: scale(1.05);
-}
-
-/* Delete Button */
-.action-buttons .delete {
-    background-color: #ef4444;
-}
-
-.action-buttons .delete:hover {
-    background-color: #dc2626;
-    transform: scale(1.05);
-}
-
-/* Scrollbar Styling */
-table::-webkit-scrollbar {
-    height: 10px;
-    width: 10px;
-}
-
-table::-webkit-scrollbar-track {
-    background: #e5e7eb;
-    border-radius: 10px;
-}
-
-table::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-table::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-/* Action Buttons Styling */
-.action-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-/* General Button Styling */
-/* Action Buttons Styling */
-.action-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-/* General Button Styling */
-.action-buttons button {
+/* Action button */
+  .action-buttons button {
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
@@ -288,32 +137,32 @@ table::-webkit-scrollbar-thumb:hover {
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     outline: none;
-}
+  }
 
-/* Edit Button Styling */
-.edit-btn {
-    background-color: #10b981; /* Emerald */
-}
+  /* Edit Button */
+  .edit-btn {
+    background-color: #00f1a1;
+  }
 
-.edit-btn:hover {
-    background-color: #059669; /* Darker Emerald */
+  .edit-btn:hover {
+    background-color: #09f1a8;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+  }
 
-/* Delete Button Styling */
-.delete-btn {
-    background-color: #ef4444; /* Red */
-}
+  /* Delete Button */
+  .delete-btn {
+    background-color: #d80b0b;
+  }
 
-.delete-btn:hover {
-    background-color: #dc2626; /* Darker Red */
+  .delete-btn:hover {
+    background-color: #fb0707;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+  }
 
-/* Button Press Effect */
-.action-buttons button:active {
+  /* Button Press Effect */
+  .action-buttons button:active {
     transform: scale(0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  }
