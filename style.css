@@ -14,7 +14,7 @@ header {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
 }
-
+/* Header hover effect */
 header:hover {
     transform: scale(1.02);
 }
@@ -30,6 +30,7 @@ section {
     max-width: 900px;
 }
 
+/* Section hover styling */
 section:hover {
     transform: scale(1.01);
 }
@@ -41,11 +42,12 @@ form {
     gap: 20px;
 }
 
+/* form lavel Styling */
 form label {
     font-weight: 600;
     color: #1f2937;
 }
-
+/* Form input styling */
 form input {
     padding: 14px;
     border: 1px solid #d1d5db;
@@ -72,7 +74,7 @@ form button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-weight: 600;
 }
-
+/* Button hover effect */
 form button:hover {
     background-color: #2563eb;
     transform: scale(1.05);
@@ -92,7 +94,7 @@ table th, table td {
     padding: 15px;
     border-bottom: 1px solid #e5e7eb;
 }
-
+/* table Header styling */
 table th {
     background-color: #f3f4f6;
     text-align: left;
@@ -110,6 +112,7 @@ table tr:nth-child(even) {
     gap: 10px;
 }
 
+/* button styling */
 .action-buttons button {
     padding: 8px 16px;
     border: none;
@@ -125,7 +128,7 @@ table tr:nth-child(even) {
 .action-buttons .edit {
     background-color: #f59e0b;
 }
-
+/* Edit button hover effect */
 .action-buttons .edit:hover {
     background-color: #d97706;
     transform: scale(1.05);
