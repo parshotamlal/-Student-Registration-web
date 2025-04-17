@@ -86,4 +86,4 @@ document.getElementById('studentForm').addEventListener('submit', (e) => {
 });
 
 // Render table on page load
-renderTable();
+renderTable(); 

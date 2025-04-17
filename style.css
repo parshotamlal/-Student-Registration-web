@@ -1,5 +1,4 @@
-/* Custom CSS */
-
+/* body Styling */
 body {
     background-color: #f1f5f9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +15,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
   }
-
+/* header hover Styling */
   header:hover {
     transform: scale(1.02);
   }
@@ -31,7 +30,7 @@ body {
     transition: transform 0.3s;
     max-width: 900px;
   }
-
+/* section hover Styling */
   section:hover {
     transform: scale(1.01);
   }
@@ -42,7 +41,7 @@ body {
     flex-direction: column;
     gap: 20px;
   }
-
+/* form lavel  Styling */
   form label {
     font-weight: 600;
     color: #1f2937;
